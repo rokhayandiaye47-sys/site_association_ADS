@@ -1,9 +1,4 @@
-# Ne jamais versionner les vrais identifiants
-config.php
-
-# Fichiers système
-.DS_Store
-Thumbs.db
-
-# Logs
-*.log
+.env
+.env.*
+!.env.example
+.vercel/

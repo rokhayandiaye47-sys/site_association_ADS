@@ -1,11 +1,3 @@
-
-
-CREATE DATABASE IF NOT EXISTS ats_association
-  CHARACTER SET utf8mb4
-  COLLATE utf8mb4_unicode_ci;
-
-USE ats_association;
-
 CREATE TABLE IF NOT EXISTS messages (
   id INT AUTO_INCREMENT PRIMARY KEY,
   nom VARCHAR(100) NOT NULL,
